@@ -1,10 +1,12 @@
 # Template
+
 🍰🚀 Basic GitHub template for anything
 
 [![Use this template](https://user-images.githubusercontent.com/61068799/177652030-10a0b529-9b3f-410d-b4ed-c32deccd1a7b.png)](https://github.com/jcbhmr/template/generate)
 
-**👀 See also**
-- [jcbhmr/template-ts-lib](https://github.com/template-ts-lib)
+![License](https://img.shields.io/github/license/jcbhmr/template)
+
+[![jcbhmr/template-ts-lib](https://github-readme-stats.vercel.app/api/pin/?username=jcbhmr&repo=template-ts-lib)](https://github.com/jcbhmr/template-ts-lib)
 
 ## What's Included
 
