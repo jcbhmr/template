@@ -10,13 +10,14 @@
 
 - 📄 Excellent `readme.md` template
 - 🏷️ Starter labels with emojis 🐛✨✔️
-- 🚧 PR title linting
+- 🚧 [PR title linting](#pr-merging)
 - 🔀 Require Actions to pass before merge
+- 🔒 [Recommended Branch Protection rules](#branch-protection)
 - 🥾 Squash merging strategy
 - ✨ Autofills `readme` with repo name and description
 - 👩‍⚖️ A copy of [the MIT license](http://billpatrianakos.me/blog/2016/07/28/why-i-use-the-mit-license/)
-- 🎗️ Per-file guides to spruce things up
-- ✔️ `TODO:` ➡ issue GitHub action
+- 🎗️ Per-file hints to include things after cloning
+- ✔️ [`TODO:` ➡️ Issue Action](#todo-action)
 - 👷 [Standard CI scripts](https://github.com/jcbhmr/jcbhmr/discussions/45)
 
 ### Bootstrap Action
