@@ -16,7 +16,6 @@
 - 🥾 Squash merging strategy
 - ✨ Autofills `readme` with repo name and description
 - 👩‍⚖️ A copy of [the MIT license](./bootstrap/license-template.ts)
-- 🎗️ Reminders to add more detailed content
 - ✔️ [`TODO` ➡️ Issue Action](https://github.com/marketplace/actions/buluma-todo-action)
 - 👷 [Standard CI scripts](https://github.com/jcbhmr/jcbhmr/discussions/45)
 
