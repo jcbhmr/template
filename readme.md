@@ -10,7 +10,7 @@
 
 - 📄 [Excellent `readme.md` template](./bootstrap/readme-template.ts)
 - 🏷️ [Starter labels with emojis 🐛✨✔️](./bootstrap/labels.json)
-- 🚧 [PR title linting](#pr-merging)
+- 🚧 PR title linting
 - 🔀 Require Actions to pass before PR merging
 - 🔒 [Recommended Branch Protection rules](./bootstrap/branch-protection.ts)
 - 🥾 Squash merging strategy
@@ -22,7 +22,7 @@
 
 🏃‍♂️ Check out [the bootstrapping Action](./github/workflows/bootstrap.yml) that is triggered when you clone this repo to see what it does!
 
-### PR Merging
+### PR Merging 🔀
 
 You may have noticed that this template has a rather opinionated view of how PRs and branches should be managed. This is because we want all your commits on the `trunk` branch to be _good commits_. How can we make that happen? Well, we can't define what you push to the `trunk` branch. As soon as you `git push`, it is already published. There is no going back. Instead, we circumvent this by adopting the following workflow:
 
