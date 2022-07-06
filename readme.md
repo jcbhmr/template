@@ -20,13 +20,7 @@
 - ✔️ [`TODO` ➡️ Issue Action](https://github.com/marketplace/actions/buluma-todo-action)
 - 👷 [Standard CI scripts](https://github.com/jcbhmr/jcbhmr/discussions/45)
 
-### Bootstrap Action
-
-When you first instantiate this template, there is [a bootstrap GitHub Action](./.github/workflows/bootstrap.yml) that will...
-1. Replace this `readme.md` with the one evaluated from `bootstrap/readme-template.ts`
-2. Replace the `license.txt` with the one evaluated from `bootstrap/license-template.ts`
-4. Remove the `bootstrap.yml` action (and associated `bootstrap/` files)
-5. Commit and push those changes
+🔎 Check out [the bootstrapping Action](./github/workflows/bootstrap.yml) that is triggered when you clone this repo to see what it does!
 
 ### PR Merging
 
