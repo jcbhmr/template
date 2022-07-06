@@ -3,7 +3,7 @@
 
 [![Use this template](https://user-images.githubusercontent.com/61068799/177652030-10a0b529-9b3f-410d-b4ed-c32deccd1a7b.png)](https://github.com/jcbhmr/template/generate)
 
-**🔎 See also**
+**👀 See also**
 - [jcbhmr/template-ts-lib](https://github.com/template-ts-lib)
 
 ## What's Included
@@ -20,7 +20,7 @@
 - ✔️ [`TODO` ➡️ Issue Action](https://github.com/marketplace/actions/buluma-todo-action)
 - 👷 [Standard CI scripts](https://github.com/jcbhmr/jcbhmr/discussions/45)
 
-🔎 Check out [the bootstrapping Action](./github/workflows/bootstrap.yml) that is triggered when you clone this repo to see what it does!
+🏃‍♂️ Check out [the bootstrapping Action](./github/workflows/bootstrap.yml) that is triggered when you clone this repo to see what it does!
 
 ### PR Merging
 
