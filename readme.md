@@ -1,7 +1,7 @@
 # Template
 🍰🚀 Basic GitHub template for anything
 
-**💡 Getting started:** Click the <kbd>Use this template</kbd> button to clone this repo and run [the bootstrap Action](#bootstrap-action)!
+[![Use this template](https://user-images.githubusercontent.com/61068799/177652030-10a0b529-9b3f-410d-b4ed-c32deccd1a7b.png)](https://github.com/jcbhmr/template/generate)
 
 **🔎 See also**
 - [jcbhmr/template-ts-lib](https://github.com/template-ts-lib)
