@@ -22,6 +22,18 @@
 
 🏃‍♂️ Check out [the bootstrapping Action](./github/workflows/bootstrap.yml) that is triggered when you clone this repo to see what it does!
 
+## General Workflow
+
+- Use Issues for tasks and bugs
+- Use PRs for completions to those tasks and bugs
+- Use Milestones to track releases
+- Use your own User-scoped Projects to track what you are doing
+- Use Releases to trigger publishing to other places
+- Use Environments to represent those other places (like a website hosting service or an NPM package)
+- Use Actions to automate all of it
+- Try to use the repo metadata to fill in parts of `package.json`-like files in Actions
+- Favor conventional inferences over configuration files
+
 ### PR Merging 🔀
 
 You may have noticed that this template has a rather opinionated view of how PRs and branches should be managed. This is because we want all your commits on the `trunk` branch to be _good commits_. How can we make that happen? Well, we can't define what you push to the `trunk` branch. As soon as you `git push`, it is already published. There is no going back. Instead, we circumvent this by adopting the following workflow:
