@@ -9,6 +9,7 @@
 ## What's Included
 
 - 📄 [Excellent `readme.md` template](./bootstrap/readme-template.ts)
+- 📛 Assortment of badges
 - 🏷️ [Starter labels with emojis 🐛✨✔️](./bootstrap/labels.json)
 - 🚧 PR title linting
 - 🔀 Require Actions to pass before PR merging
