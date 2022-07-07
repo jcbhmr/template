@@ -38,9 +38,7 @@ const readmeTemplate = (slug: GithubRepoSlug, description: string) => md`
 # \`${slug}\`
 
 ${
-  /** Here we do some logic to provide tips to write a better description */
-
-  // If there is NO description, well, remind the user to add one
+  // If there is NO description, remind the user to add one
   description.length === 0
     ? md`
       <!-- 🎗️ Add a description -->
