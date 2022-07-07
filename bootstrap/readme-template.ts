@@ -22,7 +22,6 @@
  * Read more about Wiki vs in-source-tree docs in the readme
  */
 
-import html from "@jcbhmr/html"
 import md from "@jcbhmr/md"
 
 export { readmeTemplate as default }
@@ -35,7 +34,8 @@ type GithubRepoSlug = string
 // This is NOT indented to make it easier to read/write since it is such a large string
 const readmeTemplate = (slug: GithubRepoSlug, description: string) => md`
 
-# \`${slug}\`
+<!-- 🎗️ Make this more descriptive -->
+# <code>${slug}</code>
 
 ${
   // If there is NO description, remind the user to add one
