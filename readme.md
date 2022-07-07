@@ -2,7 +2,11 @@
 
 🍰🚀 Basic GitHub template for anything
 
+<div align="center">
+
 ![Click the "Use this template" button](https://user-images.githubusercontent.com/61068799/177676171-5d3d704a-1902-45d6-816b-97c0cdab5419.png)
+
+</div>
 
 ![License](https://img.shields.io/github/license/jcbhmr/template)
 
