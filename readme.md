@@ -56,5 +56,6 @@
 - Releases: Where you publish final work versions
 - Environments: Where you define an external view of the current Release
 - Actions: Where you automate transitions between all these trackers
+- Wiki: Where you document how to use the releases
 
 This philosophy and strategy is very similar to the [.NET contributor Labels Milestones and Projects guide](https://docs.microsoft.com/en-us/contribute/dotnet/labels-projects)
