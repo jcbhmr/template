@@ -57,12 +57,3 @@
 This philosophy and strategy is very similar to the [.NET contributor Labels Milestones and Projects guide](https://docs.microsoft.com/en-us/contribute/dotnet/labels-projects)
 
 [^1]: @jcbhmr personally dislikes Projects, but they are a valid way to work
-
-## Related Projects
-
-<div align="center">
-
-[![jcbhmr/template-ts-lib](https://github-readme-stats.vercel.app/api/pin/?username=jcbhmr&repo=template-ts-lib&show_owner=true)](https://github.com/jcbhmr/template-ts-lib) [![jcbhmr/template-ts-lib](https://github-readme-stats.vercel.app/api/pin/?username=jcbhmr&repo=template-ts-lib&show_owner=true)](https://github.com/jcbhmr/template-ts-lib)<br>
-[![jcbhmr/template-ts-lib](https://github-readme-stats.vercel.app/api/pin/?username=jcbhmr&repo=template-ts-lib&show_owner=true)](https://github.com/jcbhmr/template-ts-lib) [![jcbhmr/template-ts-lib](https://github-readme-stats.vercel.app/api/pin/?username=jcbhmr&repo=template-ts-lib&show_owner=true)](https://github.com/jcbhmr/template-ts-lib)
-
-</div>
