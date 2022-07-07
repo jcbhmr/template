@@ -48,7 +48,7 @@ ${
     ? description
     // If it doesn't, we add an extra comment node
     : md`
-      ${html.comment("💡 Tip: Use emojis to grab attention. Colorful pictures are great 😍!")}
+      ${html.comment("💡 Tip: Use emojis to grab attention. Colorful pictures are great 🤩!")}
       ${description}
     `
 }
