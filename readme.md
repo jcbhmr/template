@@ -6,7 +6,7 @@
 
 ![License](https://img.shields.io/github/license/jcbhmr/template)
 
-[![jcbhmr/template-ts-lib](https://github-readme-stats.vercel.app/api/pin/?username=jcbhmr&repo=template-ts-lib)](https://github.com/jcbhmr/template-ts-lib)
+[![jcbhmr/template-ts-lib](https://github-readme-stats.vercel.app/api/pin/?username=jcbhmr&repo=template-ts-lib&show_owner=true)](https://github.com/jcbhmr/template-ts-lib)
 
 ## What's Included
 
