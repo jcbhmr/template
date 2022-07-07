@@ -28,6 +28,7 @@
 - 🚚 [Create a new Release each time a tag is created](./.github/workflows/release.yml)
 - 🔗 [Attach `build.sh` `artifacts/*` files when a release is created](./.github/workflows/release.yml)
 - 🧹 [Self-cleaning bootstrap action when you clone this template](./.github/workflows/bootstrap.yml)
+- ☁ [Creates PRs on your repo for this template's changes](./.github/workflows/updates.yml)
 
 🏃‍♂️ Check out [the bootstrapping Action](./github/workflows/bootstrap.yml) to see what happens when you clone this!
 
