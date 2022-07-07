@@ -1,6 +1,4 @@
 /**
- * 📖 Readme template
- *
  * There are seven major reasons that a person is looking at your readme. You want
  * to make sure that you address each one in some fashion (even if only briefly).
  * 1. They want to use it
@@ -35,22 +33,39 @@ type GithubRepoSlug = string
 
 /** Returns a Markdown document that should be rendered to a string for the readme */
 // This is NOT indented to make it easier to read/write since it is such a large string
-const readmeTemplate = ({ slug, description }: { slug: GithubRepoSlug, description: string }) => md`
+const readmeTemplate = (slug: GithubRepoSlug, description: string) => md`
 
 # \`${slug}\`
 
 ${
-  // Add a suggestion if the description isn't "catchy" enough. In this case, "catchy"
-  // means it has an emoji at the start of it.
-  // Ref: https://stackoverflow.com/a/64007175
-  description.match(/^\p{Extended_Pictographic}/u)
-    // If it does, just include it
-    ? description
-    // If it doesn't, we add an extra comment node
-    : md`
-      ${html.comment("💡 Tip: Use emojis to grab attention. Colorful pictures are great 🤩!")}
-      ${description}
+  /** Here we do some logic to provide tips to write a better description */
+
+  // If there is NO description, well, remind the user to add one
+  description.length === 0
+    ? md`
+      <!-- 🎗️ Add a description -->
+      ✨ An awesome project
     `
+    // If there isn't an emoji as the first character, add a tip about adding one
+    : !description.match(/^\p{Extended_Pictographic}/u)
+      ? md`
+        <!-- 💡 Emojis can be great ways of grabbing people's attention -->
+        ${description}
+      `
+      // Otherwise, just use the description as-is
+      : description
 }
+
+${
+  // This returns a Node that contains all the badges like License, CI Status, etc.
+  badges(slug)
+}
+
+<div align="center">
+
+<!-- 🎗️ Add a cover image -->
+![](https://via.placeholder.com/600x400)
+
+</div>
 
 `
