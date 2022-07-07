@@ -18,8 +18,6 @@
  * - Link to a description of how the app is designed (code)
  * - Point to a contributing guide
  * - Mention the Issues tab for features and bugs
- *
- * Read more about Wiki vs in-source-tree docs in the readme
  */
 
 import md from "@jcbhmr/md"
@@ -36,7 +34,6 @@ const readmeTemplate = (slug: GithubRepoSlug, description: string) => md`
 
 <!-- 🎗️ Make this more descriptive -->
 # <code>${slug}</code>
-
 ${
   // If there is NO description, remind the user to add one
   description.length === 0
@@ -66,4 +63,16 @@ ${
 
 </div>
 
+## Usage
+<!-- 🎗️ Provide a BASIC overview of how to use it -->
+
+<!-- 🎗️ Add more docs to the 'docs/' folder which syncs to the Wiki -->
+ℹ️ You can find more extensive docs on [the Wiki](https://github.com/${slug}/wiki)
+
+...
+
+### Installation
+<!-- 🎗️ Add rudimentary "90% of users" install instructions -->
+
+...
 `
