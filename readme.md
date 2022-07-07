@@ -2,7 +2,7 @@
 
 🍰🚀 Basic GitHub template for anything
 
-[![Use this template](https://user-images.githubusercontent.com/61068799/177652030-10a0b529-9b3f-410d-b4ed-c32deccd1a7b.png)](https://github.com/jcbhmr/template/generate)
+![Click the "Use this template" button](https://user-images.githubusercontent.com/61068799/177676171-5d3d704a-1902-45d6-816b-97c0cdab5419.png)
 
 ![License](https://img.shields.io/github/license/jcbhmr/template)
 
