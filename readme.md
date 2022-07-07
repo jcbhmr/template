@@ -11,41 +11,45 @@
 ## What's Included
 
 - 📄 [Excellent `readme.md` template](./bootstrap/readme-template.ts)
-- 📛 Assortment of badges
-- 🏷️ [Starter labels with emojis 🐛✨✔️](./bootstrap/labels.json)
-- 🚧 PR title linting
-- 🔀 Require Actions to pass before PR merging
+- 📛 [Assortment of badges](./bootstrap/readme-badges.ts)
+- 🏷️ [Starter labels with emojis 🐛✨✔️](./bootstrap/labels.yml)
+- 🔀 [Always require status checks to pass before PR merging](./bootstrap/pr-status.ts)
 - 🔒 [Recommended Branch Protection rules](./bootstrap/branch-protection.ts)
-- 🥾 Squash merging strategy
-- ✨ Autofills `readme` with repo name and description
-- 👩‍⚖️ A copy of [the MIT license](./bootstrap/license-template.ts)
-- ✔️ [`TODO` ➡️ Issue Action](https://github.com/marketplace/actions/buluma-todo-action)
-- 👷 [Standard CI scripts](https://github.com/jcbhmr/jcbhmr/discussions/45)
+- 🥾 [Squash merging strategy](./bootstrap/pr-squash.ts)
+- ✨ [Autofills `readme` with repo name and description](./bootstrap/ctx.ts)
+- 👩‍⚖️ [A copy of the MIT license](./bootstrap/license-template.ts)
+- ✔️ [`TODO` ➡️ Issue Action](./.github/workflows/todo.yml)
+- 🚦 [Generate next SemVer tag when a PR is merged](./.github/workflows/semver.yml)
+- 🧪 [Run `test.sh` everytime something changes](./.github/workflows/test.yml)
+- 🚚 [Create a new Release each time a tag is created](./.github/workflows/release.yml)
+- 🔗 [Attach `build.sh` `artifacts/*` files when a release is created](./.github/workflows/release.yml)
+- 🧹 [Self-cleaning bootstrap action when you clone this template](./.github/workflows/bootstrap.yml)
 
-🏃‍♂️ Check out [the bootstrapping Action](./github/workflows/bootstrap.yml) that is triggered when you clone this repo to see what it does!
+🏃‍♂️ Check out [the bootstrapping Action](./github/workflows/bootstrap.yml) to see what happens when you clone this!
 
-## General Workflow
+## General Workflow 🏢
 
-- Use Issues for tasks and bugs
-- Use PRs for completions to those tasks and bugs
-- Use Milestones to track releases
-- Use your own User-scoped Projects to track what you are doing
-- Use Releases to trigger publishing to other places
-- Use Environments to represent those other places (like a website hosting service or an NPM package)
-- Use Actions to automate all of it
-- Try to use the repo metadata to fill in parts of `package.json`-like files in Actions
-- Favor conventional inferences over configuration files
+1. Create an Issue ☑️
+2. Add that issue to a Project 🚩
+3. Create a branch (name doesn't matter) ⤴️
+4. Add commits to that branch (names don't matter) 💡
+5. Create a PR with a descriptive title (this _does_ matter) ⌨️
+6. Add that PR to a Milestone 🏁
+7. Add SemVer tags to your PR to inform the bots what to do with it 🏷️
+8. Make sure PR completes all checks ✔️
+9. Squash-merge PR into `trunk` (without changing title of auto-generated commit) 🥾
+10. Watch SemVer auto-bump Release ✨
+11. Watch the Release be pushed to the production Environment 🚀
+12. Repeat 🔁
 
-### PR Merging 🔀
+- Issues: Where you track tasks
+- PRs: Where you track code
+- Milestones: Where you track work progress
+- Projects: Where you track potential work (and prioritize it)
+- Releases: Where you publish final work versions
+- Environments: Where you define an external view of the current Release
+- Actions: Where you automate transitions between all these trackers
 
-You may have noticed that this template has a rather opinionated view of how PRs and branches should be managed. This is because we want all your commits on the `trunk` branch to be _good commits_. How can we make that happen? Well, we can't define what you push to the `trunk` branch. As soon as you `git push`, it is already published. There is no going back. Instead, we circumvent this by adopting the following workflow:
+This philosophy and strategy is very similar to the [.NET contributor Labels Milestones and Projects guide](https://docs.microsoft.com/en-us/contribute/dotnet/labels-projects)
 
-1. A developer creates new branch called `jcbhmr-patch-45` (the name is irrelevant)
-2. That dev then commits `Created script.js` and `Edited script.js` to the branch
-3. A PR is opened to merge `jcbhmr-patch-45` into `trunk`
-4. This PR is then linted via a GitHub Action to ensure that its title and body meet the commit standards (not the commits themselves)
-5. The PR is then approved and squashed into a single commit _with the PR title as the commit title_
-6. That good message from the PR title is then merged into `trunk`
-7. The `trunk` branch now has a completely clean history of _good_ and _validated_ commits
-
-The key is that _the only way to merge into `trunk` is to pass the PR title linting test_. This ensures that all `trunk` commits are satisfactory. No `Did stuff` commits should make it past the PR approvers (I hope)!
+[^1]: @jcbhmr personally dislikes Projects, but they are a valid way to work
