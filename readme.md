@@ -2,15 +2,15 @@
 
 🍰🚀 Basic GitHub template for anything
 
+[![License](https://img.shields.io/github/license/jcbhmr/template)](./license.txt)
+
 <div align="center">
 
 ![Click the "Use this template" button](https://user-images.githubusercontent.com/61068799/177676171-5d3d704a-1902-45d6-816b-97c0cdab5419.png)
 
 </div>
 
-![License](https://img.shields.io/github/license/jcbhmr/template)
-
-[![jcbhmr/template-ts-lib](https://github-readme-stats.vercel.app/api/pin/?username=jcbhmr&repo=template-ts-lib&show_owner=true)](https://github.com/jcbhmr/template-ts-lib)
+🤔 Not what you're looking for? Check out [my other templates](https://github.com/jcbhmr?tab=repositories&type=template)!
 
 ## What's Included
 
@@ -57,3 +57,12 @@
 This philosophy and strategy is very similar to the [.NET contributor Labels Milestones and Projects guide](https://docs.microsoft.com/en-us/contribute/dotnet/labels-projects)
 
 [^1]: @jcbhmr personally dislikes Projects, but they are a valid way to work
+
+## Related Projects
+
+<div align="center">
+
+[![jcbhmr/template-ts-lib](https://github-readme-stats.vercel.app/api/pin/?username=jcbhmr&repo=template-ts-lib&show_owner=true)](https://github.com/jcbhmr/template-ts-lib) [![jcbhmr/template-ts-lib](https://github-readme-stats.vercel.app/api/pin/?username=jcbhmr&repo=template-ts-lib&show_owner=true)](https://github.com/jcbhmr/template-ts-lib)<br>
+[![jcbhmr/template-ts-lib](https://github-readme-stats.vercel.app/api/pin/?username=jcbhmr&repo=template-ts-lib&show_owner=true)](https://github.com/jcbhmr/template-ts-lib) [![jcbhmr/template-ts-lib](https://github-readme-stats.vercel.app/api/pin/?username=jcbhmr&repo=template-ts-lib&show_owner=true)](https://github.com/jcbhmr/template-ts-lib)
+
+</div>
