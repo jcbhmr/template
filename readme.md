@@ -34,18 +34,20 @@
 
 ## General Workflow 🏢
 
-1. Create an Issue ☑️
-2. Add that issue to a Project 🚩
-3. Create a branch (name doesn't matter) ⤴️
-4. Add commits to that branch (names don't matter) 💡
-5. Create a PR with a descriptive title (this _does_ matter) ⌨️
-6. Add that PR to a Milestone 🏁
-7. Add SemVer tags to your PR to inform the bots what to do with it 🏷️
-8. Make sure PR completes all checks ✔️
-9. Squash-merge PR into `trunk` (without changing title of auto-generated commit) 🥾
-10. Watch SemVer auto-bump Release ✨
-11. Watch the Release be pushed to the production Environment 🚀
-12. Repeat 🔁
+1. ☑️ Create an Issue
+2. 🚩 Add that issue to a Project
+3. ⤴️ Create a branch (name doesn't matter)
+4. 💡 Add commits to that branch (messages don't matter)
+5. ⌨️ Create a PR with a descriptive title (title _does_ matter)
+6. 🏁 Add that PR to a Milestone
+7. 🏷️ Add SemVer tags to your PR
+8. ✔️ Make sure your PR completes all checks
+9. 🥾 Squash-merge PR into `trunk` (without changing title of auto-generated commit)
+10. ✨ Watch SemVer auto-bump Release
+11. 🚀 Watch the Release be pushed to the production Environment
+12. 🔁 Repeat
+
+## Tool Philosophy
 
 - Issues: Where you track tasks
 - PRs: Where you track code
@@ -56,5 +58,3 @@
 - Actions: Where you automate transitions between all these trackers
 
 This philosophy and strategy is very similar to the [.NET contributor Labels Milestones and Projects guide](https://docs.microsoft.com/en-us/contribute/dotnet/labels-projects)
-
-[^1]: @jcbhmr personally dislikes Projects, but they are a valid way to work
